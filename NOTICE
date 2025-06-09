@@ -1,0 +1,9 @@
+NOTICE
+
+This product includes software developed by Aleo Systems, Inc. and contributors (https://github.com/AleoHQ/snarkVM).
+
+Modifications made by Steven Varga / Varga Consulting:
+- Replaced dependency `sppark` in algorithms/cuda/Cargo.toml with a proprietary, privately maintained fork for CUDA optimization (2024-06-09).
+- Additional modifications to support CUDA-accelerated MSM and NTT are not part of the Apache 2.0-licensed public codebase.
+
+The original codebase is licensed under Apache License, Version 2.0.
